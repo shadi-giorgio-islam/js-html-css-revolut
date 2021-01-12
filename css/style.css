@@ -37,15 +37,17 @@ a{
   color: white;
 }
 
-/* i.fa-angle-down,
+i.fa-angle-down,
 i.fa-angle-up{
   display: none;
-} */
+}
+
 .box.active{
   display: block;
 }
-.active{
-  display: block;
+i.fa-angle-down.active,
+i.fa-angle-up.active{
+  display: inline-block;
 }
 /* inizio menu */
 
