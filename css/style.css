@@ -19,8 +19,10 @@ ul{
 
 ul li{
   display: inline-block;
+  text-align: center;
 }
-ul li a{
+
+a{
   text-decoration: none;
   color: #BBC0C4;
 }
@@ -33,6 +35,10 @@ ul li a{
 .btn a{
   text-decoration: none;
   color: white;
+}
+
+.box.active{
+  display: block;
 }
 /* inizio menu */
 
@@ -47,6 +53,24 @@ nav .container{
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+}
+nav ul li{
+  position: relative;
+}
+nav ul li .box{
+  width: 150px;
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40px;
+  left: -50px;
+  box-shadow: 0 0 3px #ccc;
+  text-align: center;
+}
+nav ul li .box a{
+  display: block;
+  padding: 20px;
 }
 /* menu-left */
 nav .container .menu-left ul li {
