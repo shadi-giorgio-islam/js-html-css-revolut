@@ -37,7 +37,14 @@ a{
   color: white;
 }
 
+/* i.fa-angle-down,
+i.fa-angle-up{
+  display: none;
+} */
 .box.active{
+  display: block;
+}
+.active{
   display: block;
 }
 /* inizio menu */
@@ -101,6 +108,7 @@ nav .container .menu-right{
 nav .container .menu-right ul li {
   margin-right: 20px;
 }
+
 nav .container .menu-right ul li a:hover{
   color: black;
 }
