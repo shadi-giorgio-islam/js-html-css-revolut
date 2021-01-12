@@ -3,3 +3,72 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* regole generali */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1060px;
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #BBC0C4;
+}
+
+.btn{
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #EB008D;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+/* inizio menu */
+
+nav{
+  height: 80px;
+  margin-top: 40px;
+}
+
+nav .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+/* menu-left */
+nav .container .menu-left ul li {
+  margin-right: 20px;
+}
+nav .container .menu-left ul li a:hover{
+  color: black;
+}
+nav .container .menu-left img{
+  height: 30px;
+  vertical-align: middle;
+}
+/* menu-right */
+nav .container .menu-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav .container .menu-right ul li {
+  margin-right: 20px;
+}
+nav .container .menu-right ul li a:hover{
+  color: black;
+}
