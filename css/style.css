@@ -71,6 +71,14 @@ nav ul li .box{
 nav ul li .box a{
   display: block;
   padding: 20px;
+  position: relative;
+}
+nav ul li .box a .new{
+  padding: 2px;
+  position: absolute;
+  top: 15px;
+  color: #EB008D;
+  font-size: 10px;
 }
 /* menu-left */
 nav .container .menu-left ul li {
