@@ -73,7 +73,8 @@ nav ul li .box{
   margin-left: auto;
   margin-right: auto;
   top: 40px;
-  left: -50px;
+  left: 50%;
+  transform: translateX(-50%);
   box-shadow: 0 0 3px #ccc;
   text-align: center;
 }
