@@ -47,6 +47,10 @@ i.fa-angle-up{
 .box.active{
   display: block;
 }
+.box:hover{
+  display: block;
+}
+
 i.fa-angle-down.active,
 i.fa-angle-up.active{
   display: inline-block;
