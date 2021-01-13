@@ -6,6 +6,8 @@
 /* regole generali */
 body{
   font-family: 'Roboto', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp1886150.png');
+  background-size: cover;
 }
 
 .container{
@@ -24,7 +26,7 @@ ul li{
 
 a{
   text-decoration: none;
-  color: #BBC0C4;
+  color: white;
 }
 
 .btn{
@@ -52,8 +54,8 @@ i.fa-angle-up.active{
 /* inizio menu */
 
 nav{
-  height: 80px;
-  margin-top: 40px;
+  background-color: #0062AF;
+  padding: 20px 0;
 }
 
 nav .container{
@@ -67,6 +69,7 @@ nav ul li{
   position: relative;
 }
 nav ul li .box{
+  background-color: white;
   width: 150px;
   display: none;
   position: absolute;
@@ -79,6 +82,7 @@ nav ul li .box{
   text-align: center;
 }
 nav ul li .box a{
+  color: black;
   display: block;
   padding: 20px;
   position: relative;
@@ -95,10 +99,10 @@ nav .container .menu-left ul li {
   margin-right: 20px;
 }
 nav .container .menu-left ul li a:hover{
-  color: black;
+  color: yellow;
 }
 nav .container .menu-left img{
-  height: 30px;
+  height: 60px;
   vertical-align: middle;
 }
 /* menu-right */
@@ -113,5 +117,5 @@ nav .container .menu-right ul li {
 }
 
 nav .container .menu-right ul li a:hover{
-  color: black;
+  color: yellow;
 }

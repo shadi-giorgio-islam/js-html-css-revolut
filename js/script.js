@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('i.fa-angle-down').addClass('active');
-  $('li').click(function(){
+  $('li').mouseenter(function(){
     $('li').not(this).children('.box').removeClass('active');
     $(this).children('.box').toggleClass('active');
     if ($('.box.lang').hasClass('active')) {
